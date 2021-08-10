@@ -127,11 +127,11 @@ button {
 
 .fas {
   display: flex;
+  flex-direction: row;
   align-items: center;
   color: #002e6c;
   cursor: pointer;
   transition: all 0.25s ease !important;
-  border: 2px solid transparent;
 }
 
 .fas:hover {
