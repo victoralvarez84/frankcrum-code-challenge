@@ -125,23 +125,28 @@ button {
   margin-left: 16px;
 }
 
-.fas {
+.grid-box {
   display: flex;
-  flex-direction: row;
   align-items: center;
   color: #002e6c;
   cursor: pointer;
   transition: all 0.25s ease !important;
 }
 
-.fas:hover {
+/* .fas {
+  color: #002e6c;
+  cursor: pointer;
+  transition: all 0.25s ease !important;
+} */
+
+.grid-box:hover {
   color: #1894d6;
 }
 
-.fas p {
+.grid-box p {
   margin-left: 8px;
-  margin-top: 16px;
   margin-right: 16px;
+  margin-top: 16px !important;
 }
 
 /*DOCUMENT FILTERS*/
