@@ -131,6 +131,7 @@ button {
   color: #002e6c;
   cursor: pointer;
   transition: all 0.25s ease !important;
+  border: 2px solid transparent;
 }
 
 .fas:hover {
@@ -204,7 +205,7 @@ button {
 .document-container {
   border-top: 4px solid #002e6c;
   padding-top: 36px;
-  width: 100%;
+  display: flex;
 }
 
 .popular-resouces-container {
@@ -220,12 +221,13 @@ button {
 
 .document-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .col-md-2 {
   padding: 0px !important;
-  padding-right: 16px !important;
+  padding-right: 8px !important;
+  padding-left: 8px !important;
   color: #002e6c;
   cursor: pointer;
 }
