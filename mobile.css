@@ -1,0 +1,37 @@
+/*CSS FOR MOBILE*/
+
+@media screen and (max-width: 990px) {
+  .sub-header-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .search-bar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .document-filters {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  .filter-dropdown {
+    margin-bottom: 24px;
+    width: 100% !important;
+  }
+
+  .navbar-collapse {
+    background-color: white;
+    width: 100vw;
+    padding: 0;
+    position: relative;
+    color: #002e6c !important;
+  }
+
+  .navbar-collapse ul li a {
+    color: #002e6c !important;
+    cursor: pointer;
+  }
+}

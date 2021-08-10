@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f22f4f08c4.js" crossorigin="anonymous"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <title>FrankCrum Code Challenge</title>
+  </head>
+  <body>
+    <!---HEADER-->
+    <header>
+      <div class="top-header-container">
+        <div class="top-header container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/Logo.jpg"
+              alt=""
+              width="auto"
+              height="60"
+              class="d-inline-block align-text-top"
+            />
+            </a>
+            <h1>Agent <br>Resources</h1>
+        </div>
+      </div>
+       
+      
+      <!---SUB-HEADER-->
+      <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+        <div class="sub-header-container">
+          <div class="sub-header container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav sub-header-links">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">RESOURCE HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    POLICY SERVICING & MANAGEMENT DOCS
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRODUCTS & PROGRAMS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+      </nav>
+    </header>
+
+
+    <!--CONTENT SECTION-->
+    
+      <section>
+        <div class="page-content-container container-fluid">
+         <h1>RESOURCE HOME</h1>
+         <!--SEARCH BAR ROW-->
+          <div class="search-bar-container">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search Resource Home"
+                aria-label="Search"
+                />
+  
+              <button class="btn btn-outline-success" type="submit">
+                SEARCH
+              </button>
+            </form>
+            <div class="view-container">
+              <i class="fas fa-th"><p>GRID VIEW</p></i> <i class="fas fa-list"><p>LIST
+                VIEW</p></i>
+            </div>
+            
+          </div>
+          <!---FILTER AVAILABLE DOCUMENTS-->
+          <div class="filters-container">
+            <h2>FILTER AVAILABLE DOCUMENTS</h2>
+            <div class="document-filters-container">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 document-filters">
+                <li class="nav-item dropdown filter-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle filter-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Line of Business (0)
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown filter-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle filter-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  Company (0)
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown filter-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle filter-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  States (0)
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown filter-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle filter-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  Type of Document (0)
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <button type="button" class="btn btn-primary filters-reset-button">FILTERS RESET</button>
+              </ul>
+             
+            </div>
+          </div>
+          <!--POPULAR RESOURCES-->
+          <div class="popular-resouces-container">
+            <h3>POPULAR RESOURCES</h3>
+            
+            <div class="container document-container">
+              
+              <div class="row">
+                <!---DOC 1-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row1-col1.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Endorsement Request - General Liability</p>
+                </div>
+                <!---DOC 2-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row1-col2.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Appetite Guide - Extended Resource Guide</p>
+                </div>
+                <!---DOC 3-->
+                <div class="col-md-2">
+                  <img
+                  src="assets/row1-col3.jpg"
+                  alt=""
+                  width="auto"
+                  height="auto"
+                  class="d-inline-block align-text-top"
+                /> 
+                <p>Frank Winston Crum - Florida WC Target List</p>
+                </div>
+                <!---DOC 4-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row1-col4.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Florida GL Manual - Clear Blue</p>
+                </div>
+                <!---DOC 5-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row1-col5.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>FWCI Roofing Supplemental Application 11/2020</p>
+                </div>
+                <!---DOC 6-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row1-col6.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Frank Winston Crum - Inland Marine Options</p>
+                </div>
+              </div>
+             </div>
+            </div>
+            <!--NEW & UPDATED RESOURCES-->
+          <div class="popular-resouces-container">
+            <h3>NEW & UPDATED RESOURCES</h3>
+            <div class="container document-container">
+              
+              <div class="row">
+                <!---DOC 1-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row2-col1.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>IL 02 50 09 08 - Tennessee Changes - Cancellation and Nonrenewal</p>
+
+                </div>
+                <!---DOC 2-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row2-col2.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>IL 02 69 09 08 - North Carolina Changes - Cancellation and Nonrenewal</p>
+
+                </div>
+                <!---DOC 3-->
+                <div class="col-md-2">
+                  <img
+                  src="assets/row2-col3.jpg"
+                  alt=""
+                  width="auto"
+                  height="auto"
+                  class="d-inline-block align-text-top"
+                /> 
+                <p>IL 02 49 07 19 - South Carolina Changes - Cancellation and Nonrenewal</p>
+                </div>
+                <!---DOC 4-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row2-col4.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Toolbox Talks - Trench Safety SPANISH</p>
+                </div>
+                <!---DOC 5-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row2-col5.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Toolbox Talks - Trench Safety ENGLISH</p>
+
+                </div>
+                <!---DOC 6-->
+                <div class="col-md-2">
+                  <img
+                src="assets/row2-col6.jpg"
+                alt=""
+                width="auto"
+                height="auto"
+                class="d-inline-block align-text-top"
+              />
+              <p>Toolbox Talks - Prevention Top Construction Hazards SPANISH</p>
+                </div>
+              </div>
+             </div>
+            </div>
+          </div>
+        
+      </div>
+        </div>
+        
+  </section>
+  </body>
+</html>
